@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-python-basic-wjym
     spec:
       containers:
-      - image: python-image:latest
+      - image: quay.io/qijing/push-pyxis-nthq-tenant/appstudio/devfile-sample-python-basic-wjym@sha256:42913bf3d06709c203e724009274cde4dbbf748d84391ec1d90ba541111ebcc8
         name: my-python
         ports:
         - containerPort: 8081

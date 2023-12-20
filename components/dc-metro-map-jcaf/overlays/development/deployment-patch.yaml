@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: dc-metro-map-jcaf
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/qijing/push-pyxis-nthq-tenant/appstudio/dc-metro-map-jcaf@sha256:5f3a703fa7a628178851c9bdeeaeb777dbc667b43b3f3efb577fb04b8908c14c
+        name: my-nodejs
+        resources: {}
+status: {}

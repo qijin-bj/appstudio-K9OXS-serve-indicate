@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: dc-metro-map-jcaf
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/qijing/push-pyxis-nthq-tenant/appstudio/dc-metro-map-jcaf@sha256:5f3a703fa7a628178851c9bdeeaeb777dbc667b43b3f3efb577fb04b8908c14c
         name: my-nodejs
         ports:
         - containerPort: 3001
